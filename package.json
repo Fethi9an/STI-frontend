@@ -4,18 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node.app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fethi9an/STI-frontend.git"
+    "url": "git+https://github.com/YaffetK/sti-frontend.git"
   },
-  "author": "",
+  "author": "Yaffet",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fethi9an/STI-frontend/issues"
+    "url": "https://github.com/YaffetK/sti-frontend/issues"
   },
-  "homepage": "https://github.com/Fethi9an/STI-frontend#readme",
+  "homepage": "https://github.com/YaffetK/sti-frontend#readme",
   "dependencies": {
     "express": "^4.17.2",
     "healthcheck": "^0.1.3",
