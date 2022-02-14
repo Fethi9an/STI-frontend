@@ -16,3 +16,7 @@ app.get('/',function(req, res){
 app.listen(PORT, function(){
     console.log('server started on port $ {PORT}')
 })
+
+var anElement = document.getElementById("app")
+anElement.innerHTML = "Hello world"
+anElement.outerHTML = "hello world"
