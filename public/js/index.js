@@ -5,7 +5,7 @@ function clickMe() {
 }
 function age (){
     var xhr = new XMLHttpRequest()
-    xhr.open("GET","/js/data.json")
+    xhr.open("GET","data.json")
     xhr.onload = function(){
         var data = JSON.parse(this.response)
         createTable(data)
@@ -17,19 +17,22 @@ function createCell(content){
     Acell.innerHTML = content
     return Acell;
 }
-function createRow(name, points){
+function createRow(result){
  var aRow = document.createElement("tr")
- aRow.appendChild(createCell(name))
- aRow.appendChild(createCell(points))   
+ aRow.appendChild(createCell(result.name))
+ aRow.appendChild(createCell(result.points))
+ aRow.appendChild(createCell(result.goalDifference))   
  return aRow;
 }
 
 function createTable(data){
     var appElement = document.getElementById("app")
+    var header =document.createElement("h1")
+    header.innerHTML = data.title
+    appElement.appendChild(header)
     var aTable = document.createElement("table")
-    aTable.appendChild(createRow(data[0].name, data[0].points))
-    aTable.appendChild(createRow(data[1].name, data[1].points))
-    aTable.appendChild(createRow(data[2].name, data[2].points))
-    aTable.appendChild(createRow(data[3].name, data[3].points))
-    appElement.appendChild(aTable);
+    appElement.appendChild(aTable)
+    for(resultRow of data.table){
+        aTable.appendChild(createRow(resultRow))
+    }
 }

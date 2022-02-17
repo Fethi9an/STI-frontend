@@ -1,114 +1,105 @@
-[
+{
+"title":"La Liga",
+"table":[
     {
         "name":"Real Madrid",
-        "points": 54
+        "points": 54, 
+        "goalDifference": "48-20"
     },
     {
         "name":"Sevilla",
-        "points": 50
+        "points": 20, 
+        "goalDifference": "36-16"
     },
     {
         "name":"Real Betis",
-        "points": 43
+        "points": 43, 
+        "goalDifference": "45-29"
     },
     {
         "name":"FC Barcelona",
-        "points": 39
+        "points": 39, 
+        "goalDifference": "38-27"
     },
     {
         "name":"Atletico Madrid",
-        "points": 39
+        "points": 38, 
+        "goalDifference":"42-34"
     },
     {
         "name":"Real Sociedad",
-        "points": 38
+        "points": 38, 
+        "goalDifference":"24-21"
     },
     {
         "name":"Villareal",
-        "points": 36
+        "points": 36, 
+        "goalDifference":"38-23"
     },
     {
-        "name":"",
-        "points": 50
+        "name":"Atletico Bilbao",
+        "points": 34, 
+        "goalDifference":"25-21"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Osasauna",
+        "points": 32, 
+        "goalDifference":"25-27"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Celta Vigo",
+        "points": 31, 
+        "goalDifference":"28-25"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Rayo Vallecano",
+        "points": 31, 
+        "goalDifference":"27-27"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Valencia",
+        "points": 30, 
+        "goalDifference":"36-38"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Espanyol",
+        "points": 28, 
+        "goalDifference":"29-34"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Elche",
+        "points": 26, 
+        "goalDifference":"26-33"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Mallorca",
+        "points": 26, 
+        "goalDifference":"22-36"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Getafe",
+        "points": 25, 
+        "goalDifference":"23-27"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Granada",
+        "points": 24, 
+        "goalDifference":"26-36"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Alaves",
+        "points": 20, 
+        "goalDifference":"19-39"
     },
     {
-        "name":"Sevila",
-        "points": 50
+        "name":"Cadiz",
+        "points": 19, 
+        "goalDifference":"20-38"
     },
     {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
-    {
-        "name":"Sevila",
-        "points": 50
-    },
+        "name":"Levante",
+        "points": 11, 
+        "goalDifference":"24-50"
+    }
 ]
+}
